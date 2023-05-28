@@ -156,21 +156,20 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    .header {
-        /* ... Existing styles ... */
-    
+    .header {    
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
     
-    .header a {
-        /* ... Existing styles ... */
-    
+    .header a {    
         margin: 10px;
         margin-top: 10px;
         line-height: 100%;
+    }
+    .title{
+        margin-top: 10vh;
     }
     .title h1 {
         font-size: 2em;
