@@ -101,7 +101,7 @@ body {
     flex-wrap: wrap;
 }
 .subsection div{
-    width:330px;
+    width:350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
