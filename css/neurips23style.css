@@ -101,13 +101,16 @@ body {
     flex-wrap: wrap;
 }
 .subsection div{
-    width:250px;
+    width:330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
+}
+#student-co-organizers .subsection div{
+    width: 250px;
 }
 
 .subsection div a{
