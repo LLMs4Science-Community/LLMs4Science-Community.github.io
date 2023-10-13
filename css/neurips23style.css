@@ -23,6 +23,15 @@ body {
     line-height: 40px;
 }
 
+.section b{
+    font-weight: 600 !important;
+}
+
+.section a{
+    text-decoration: underline;
+    color: rgb(25, 1, 61);
+}
+
 #backbutton {
     border: 1px solid white;
     padding: 8px;
@@ -67,9 +76,19 @@ body {
     font-weight: 400;
 }
 
+.section h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
 .section p {
     font-size: 1.2em;
-    font-weight: 200;
+    font-weight: 300;
+}
+
+.section ul {
+    font-weight: 300;
+    font-size: 1.1em;
 }
 
 .speaker img {

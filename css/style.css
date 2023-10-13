@@ -65,6 +65,20 @@ body {
     font-weight: 400;
 }
 
+.section h3{
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+.section b{
+    font-weight: 600 !important;
+}
+
+p a{
+    text-decoration: underline;
+    color: rgb(25, 1, 61);
+}
+
 .section p {
     font-size: 1.2em;
     font-weight: 200;
