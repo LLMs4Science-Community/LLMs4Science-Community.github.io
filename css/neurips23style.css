@@ -177,6 +177,30 @@ body {
     margin-bottom: 10px;
 }
 
+.main_table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 6px;
+}
+.main_table .time{
+    width: 15%;
+    text-align: center;
+
+}
+.table_title{
+    font-weight: 600;
+    font-size: large;
+}
+.mini_time{
+    width: 10%;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 800px) {
     .header {    
