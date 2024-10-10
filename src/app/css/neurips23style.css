@@ -1,0 +1,281 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(25, 1, 61);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.section b{
+    font-weight: 600 !important;
+}
+
+.section a{
+    text-decoration: underline;
+    color: rgb(25, 1, 61);
+}
+
+#backbutton {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.title {
+    background: url('/aaai2024/images/webimages/bg1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 60px;
+}
+
+.title h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.title h4 {
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+.section {
+    padding: 40px 100px 30px;
+    line-height: 2em;
+}
+
+.section h2 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.section h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.section p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.section ul {
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.speaker img {
+    border-radius: 50%;
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#keynoteInvite h3{
+    font-weight: 600;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+#keynoteInvite h4{
+    font-weight: 400;
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.subsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.subsection div{
+    width:23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#student-co-organizers .subsection div{
+    width: 250px;
+}
+
+.subsection div a{
+    text-decoration: none;
+    color: black;
+}
+.speaker{
+    margin-top: 20px;
+}
+.speaker p{
+    font-size: 1em;
+}
+.speaker h3{
+    font-size: 1.3em !important;
+    font-weight: 400;
+}
+
+.organizer{
+    display: flex;
+    align-items: flex-start;
+}
+.organizer img{
+    margin-top: 50px;
+    width: 250px;
+    object-fit: contain;
+}
+.org_content{
+    padding-left: 100px;
+}
+.org_content .org_name{
+    text-decoration: none;
+    color:black;
+}
+
+#committee-list ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: decimal;
+    padding: 30;
+    column-gap: 100px; /* Add a gap between columns */
+
+}
+
+#committee-list li {
+    margin-bottom: 10px;
+}
+
+.main_table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 6px;
+}
+.main_table .time{
+    width: 15%;
+    text-align: center;
+
+}
+.table_title{
+    font-weight: 600;
+    font-size: large;
+}
+.mini_time{
+    width: 10%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .header {    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header a {    
+        margin: 10px;
+        margin-top: 10px;
+        line-height: 100%;
+    }
+    .title{
+        margin-top: 15vh;
+    }
+    .title h1 {
+        font-size: 2em;
+    }
+
+    .title h4 {
+        font-size: 1em;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    .section h2 {
+        font-size: 1.5em;
+    }
+
+    .section p {
+        font-size: 1em;
+    }
+
+    .speaker img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .subsection {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subsection div {
+        width: 100%;
+        max-width: 250px;
+        margin: 20px;
+    }
+    .organizer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .org_content {
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .org_content .org_name {
+        font-size: 1.2em;
+    }
+
+    #committee-list ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: decimal;
+        padding: 10px;
+        margin: 0;
+        column-count: 1;
+    }
+}
