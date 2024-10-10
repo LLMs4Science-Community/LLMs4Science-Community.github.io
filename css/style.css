@@ -13,11 +13,14 @@ body {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .header a {
     color: #fff;
-    margin: 10px;
     text-decoration: none;
     font-weight: 400;
     border: 1px solid white;
