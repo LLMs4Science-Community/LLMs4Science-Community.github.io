@@ -526,8 +526,8 @@ const Aaai2024 = () => {
                 Runner-up and Best Paper Candidate in ACM SIGSPATIAL 2022. His
                 paper on deep graph transformation and applications on molecule
                 reaction prediction won the Best Paper Award in ICDM 2019. His
-                recent book ``Graph Neural Network: Foundations, Frontiers, and
-                Applications'' received over 100K accesses in the publisher
+                recent book "Graph Neural Network: Foundations, Frontiers, and
+                Applications" received over 100K accesses in the publisher
                 Springer link's website. Its Chinese version has won Best-Seller
                 Award from Post \& Telecom Press. Zhao has disseminated over 30
                 software tools and numerous datasets.{" "}
