@@ -401,7 +401,10 @@ const Aaai2024 = () => {
         <h2>Organizers</h2>
         <div id="organizer-list">
           <div className="organizer">
-            <img src="/aaai2024/images/Organizers/Shehu-small.png" alt="Amarda Shehu" />
+            <img
+              src="/aaai2024/images/Organizers/Shehu-small.png"
+              alt="Amarda Shehu"
+            />
             <div className="org_content">
               <h3>
                 <a href="https://cs.gmu.edu/~ashehu/" className="org_name">
@@ -419,28 +422,29 @@ const Aaai2024 = () => {
                 President of Research for the Institute of Digital InnovAtion.
                 Shehu obtained her Ph.D. from Rice University in 2008, where she
                 was also an NIH predoctoral fellow in the Nanobiology Program
-                and was dually trained in AI and Molecular Biophysics. Shehu's
-                research bridges foundational AI research and AI in support of
-                progress across scientific disciplines. Her scholarship includes
-                work at the intersection of stochastic optimization, planning,
-                deep learning, optimization for deep learning, bioinformatics,
-                health informatics, applied NLP, and more. She is a 2022 Fellow
-                of the American Institute for Medical and Biological Engineering
-                (AIMBE) and is passionate about bridging scientific communities.
-                She regularly delivers keynotes and invited talks (IEEE BIBM
-                2022, BIOKDD 2021, ICCABS 2020, etc.), organizes tutorials and
-                workshops in ACM and IEEE bioinformatics and evolutionary
-                computation conferences, and journal collections and special
-                issues (PLoS Comput Biol, Curr Opin Struct Biol, Molecules, Intl
-                J Mol Sci, etc.) to advance transdisciplinary research. Shehu
-                also served as Program Director in the CISE directorate at NSF
-                2019-2022 during which time she galvanized various
-                sub-communities of CISE, BIO, CHEM, and ENG researchers in
-                transdisciplinary research, education programs, and workshops.
-                She has extensive expertise bringing together silo-ed
-                communities together in workshops (Women @ GECCCO, CSBW, AAAI
-                Workshops, etc.), with a strong emphasis on integration and
-                leadership for historically-minoritized researchers.{" "}
+                and was dually trained in AI and Molecular Biophysics.
+                Shehu&apos;s research bridges foundational AI research and AI in
+                support of progress across scientific disciplines. Her
+                scholarship includes work at the intersection of stochastic
+                optimization, planning, deep learning, optimization for deep
+                learning, bioinformatics, health informatics, applied NLP, and
+                more. She is a 2022 Fellow of the American Institute for Medical
+                and Biological Engineering (AIMBE) and is passionate about
+                bridging scientific communities. She regularly delivers keynotes
+                and invited talks (IEEE BIBM 2022, BIOKDD 2021, ICCABS 2020,
+                etc.), organizes tutorials and workshops in ACM and IEEE
+                bioinformatics and evolutionary computation conferences, and
+                journal collections and special issues (PLoS Comput Biol, Curr
+                Opin Struct Biol, Molecules, Intl J Mol Sci, etc.) to advance
+                transdisciplinary research. Shehu also served as Program
+                Director in the CISE directorate at NSF 2019-2022 during which
+                time she galvanized various sub-communities of CISE, BIO, CHEM,
+                and ENG researchers in transdisciplinary research, education
+                programs, and workshops. She has extensive expertise bringing
+                together silo-ed communities together in workshops (Women @
+                GECCCO, CSBW, AAAI Workshops, etc.), with a strong emphasis on
+                integration and leadership for historically-minoritized
+                researchers.
               </p>
               <p>
                 <a href="mailto:amarda@gmu.edu">amarda@gmu.edu</a>
@@ -448,7 +452,10 @@ const Aaai2024 = () => {
             </div>
           </div>
           <div className="organizer">
-            <img src="/aaai2024/images/Organizers/Yana.png" alt="Yana Bromberg" />
+            <img
+              src="/aaai2024/images/Organizers/Yana.png"
+              alt="Yana Bromberg"
+            />
             <div className="org_content">
               <h3>
                 <a
@@ -486,7 +493,7 @@ const Aaai2024 = () => {
                 functionality in microbial communities. Bromberg is a director
                 of the International Society for Computational Biology and has
                 filled a number of leading roles in the organization of ISMB --
-                the society's annual flagship conference. She consistently
+                the society&apos;s annual flagship conference. She consistently
                 delivers keynotes and invited talks at national and
                 international conferences (ISMB, GRC, etc.) and lectures at
                 relevant workshops and courses (STAMPs workshop @MBL, the
@@ -526,11 +533,11 @@ const Aaai2024 = () => {
                 Runner-up and Best Paper Candidate in ACM SIGSPATIAL 2022. His
                 paper on deep graph transformation and applications on molecule
                 reaction prediction won the Best Paper Award in ICDM 2019. His
-                recent book "Graph Neural Network: Foundations, Frontiers, and
-                Applications" received over 100K accesses in the publisher
-                Springer link's website. Its Chinese version has won Best-Seller
-                Award from Post \& Telecom Press. Zhao has disseminated over 30
-                software tools and numerous datasets.{" "}
+                recent book &quot;Graph Neural Network: Foundations, Frontiers,
+                and Applications&quot; received over 100K accesses in the
+                publisher Springer link&apos;s website. Its Chinese version has
+                won Best-Seller Award from Post \& Telecom Press. Zhao has
+                disseminated over 30 software tools and numerous datasets.{" "}
               </p>
               <p>
                 <a href="mailto:liang.zhao@emory.edu">liang.zhao@emory.edu</a>
@@ -545,7 +552,10 @@ const Aaai2024 = () => {
         <h3>George Mason University</h3>
         <div id="GeorgeMasonUniversity" className="subsection">
           <div className="speaker">
-            <img src="/aaai2024/images/StudentOrganizers/Sam.png" alt="Samuel Blouir" />
+            <img
+              src="/aaai2024/images/StudentOrganizers/Sam.png"
+              alt="Samuel Blouir"
+            />
             <h3>
               <a href="https://www.linkedin.com/in/samblouir/">Samuel Blouir</a>
             </h3>
@@ -597,14 +607,20 @@ const Aaai2024 = () => {
             <p>Role: DEI Ambassador</p>
           </div>
           <div className="speaker">
-            <img src="/aaai2024/images/StudentOrganizers/Yijun.png" alt="Yijun Liu" />
+            <img
+              src="/aaai2024/images/StudentOrganizers/Yijun.png"
+              alt="Yijun Liu"
+            />
             <h3>
               <a href="http://liuyijun.com">Yijun Liu</a>
             </h3>
             <p>Role: Workshop Website</p>
           </div>
           <div className="speaker">
-            <img src="/aaai2024/images/StudentOrganizers/Chen.png" alt="Chen Ling" />
+            <img
+              src="/aaai2024/images/StudentOrganizers/Chen.png"
+              alt="Chen Ling"
+            />
             <h3>
               <a href="https://lingchen0331.github.io/">Chen Ling</a>
             </h3>
