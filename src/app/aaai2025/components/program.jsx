@@ -48,7 +48,7 @@ const Program = () => {
       id="program"
       className="w-[70vw] mx-auto py-[100px] flex flex-col gap-10"
     >
-      <h1 className="text-[40px] font-bold text-neutral-100">PROGRAM</h1>
+      <h1 className="text-[40px] font-bold text-neutral-200">PROGRAM</h1>
       <div className="flex flex-col">
         {details.map((detail, i) => (
           <Detail key={i} title={detail.title} content={detail.content} />

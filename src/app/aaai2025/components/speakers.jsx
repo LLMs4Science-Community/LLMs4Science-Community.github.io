@@ -6,7 +6,7 @@ const Speakers = () => {
       id="speakers"
       className="w-[70vw] mx-auto py-[100px] flex flex-col gap-10"
     >
-      <h1 className="text-[40px] font-bold text-neutral-100">
+      <h1 className="text-[40px] font-bold text-neutral-200">
         KEYNOTE SPEAKERS
       </h1>
 

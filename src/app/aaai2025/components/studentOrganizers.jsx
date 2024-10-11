@@ -10,6 +10,18 @@ const StudentOrganizers = () => {
       email: "wzhao9@gmu.edu",
       profile: "/aaai2025/images/profile-weisen_zhao.png",
     },
+    {
+      name: "Yifei Zhang",
+      school: "Emory University",
+      email: "yifei.zhang2@emory.edu",
+      profile: ""
+    },
+    {
+      name: "Ethan Lee",
+      school: "Emory University",
+      email: "ethan.lee@emory.edu",
+      profile: ""
+    }
   ];
 
   return (
@@ -17,7 +29,7 @@ const StudentOrganizers = () => {
       id="student-organizers"
       className="w-[70vw] mx-auto py-[100px] flex flex-col gap-10"
     >
-      <h1 className="text-[40px] font-bold text-neutral-100">
+      <h1 className="text-[40px] font-bold text-neutral-200">
         STUDENT CO-ORGANIZERS
       </h1>
 

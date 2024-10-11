@@ -55,7 +55,7 @@ const About = () => {
         </Link>
       </div>
 
-      <h1 className="text-[40px] font-bold text-neutral-100">ABOUT</h1>
+      <h1 className="text-[40px] font-bold text-neutral-200">ABOUT</h1>
       <div>
         <p>
           Foundation models (FMs) have transformed natural language
