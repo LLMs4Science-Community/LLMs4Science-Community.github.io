@@ -14,7 +14,7 @@ const StudentOrganizers = () => {
       name: "Yifei Zhang",
       school: "Emory University",
       email: "yifei.zhang2@emory.edu",
-      profile: "",
+      profile: "/aaai2025/images/profile-zhang.jpg",
     },
     {
       name: "Ethan Lee",
