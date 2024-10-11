@@ -14,14 +14,14 @@ const StudentOrganizers = () => {
       name: "Yifei Zhang",
       school: "Emory University",
       email: "yifei.zhang2@emory.edu",
-      profile: ""
+      profile: "",
     },
     {
       name: "Ethan Lee",
       school: "Emory University",
       email: "ethan.lee@emory.edu",
-      profile: ""
-    }
+      profile: "/aaai2025/images/profile-lee.jpg",
+    },
   ];
 
   return (
