@@ -20,7 +20,7 @@ const StudentOrganizers = () => {
       name: "Ethan Lee",
       school: "Emory University",
       email: "ethan.lee@emory.edu",
-      profile: "/aaai2025/images/profile-lee.jpg",
+      profile: "/aaai2025/images/profile-lee.png",
     },
   ];
 
