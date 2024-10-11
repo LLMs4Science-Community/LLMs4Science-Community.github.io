@@ -47,8 +47,8 @@ const About = () => {
           rel="noopener noreferrer"
         >
           <motion.div
-            whileHover={{ opacity: 0.7 }}
-            className="px-5 py-3 bg-white text-black rounded-xl text-[18px] font-medium w-fit border border-black"
+            whileHover={{ borderColor: "#000" }}
+            className="px-5 py-3 bg-white text-black rounded-xl text-[18px] font-medium w-fit border border-neutral-100"
           >
             ACCEPTED PAPERS
           </motion.div>

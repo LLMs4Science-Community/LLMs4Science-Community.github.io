@@ -35,7 +35,7 @@ const Nav = () => {
     };
 
     const observer = new IntersectionObserver(handleIntersection, {
-      threshold: 0.7,
+      threshold: 0.5,
     });
 
     const sections = document.querySelectorAll("section");
@@ -65,7 +65,7 @@ const Nav = () => {
           ) : (
             <motion.span
               whileHover={{ borderColor: "#000000" }}
-              className="flex gap-2 items-center font-semibold px-4 py-2 rounded-md border border-neutral-200 text-black"
+              className="flex gap-2 items-center font-semibold px-4 py-2 rounded-md border border-neutral-100 text-black"
             >
               {link.name.toUpperCase()}
               <ArrowTopRightOnSquareIcon className="size-5 text-black" />
