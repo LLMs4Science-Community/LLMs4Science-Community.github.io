@@ -22,6 +22,24 @@ const StudentOrganizers = () => {
       email: "ethan.lee@emory.edu",
       profile: "/aaai2025/images/profile-lee.png",
     },
+    {
+      name: "Samuel Blouir",
+      school: "George Mason University",
+      email: "",
+      profile: "/aaai2025/images/profile-blouir.png",
+    },
+    {
+      name: "Manpriya Dua",
+      school: "George Mason University",
+      email: "",
+      profile: "/aaai2025/images/profile-dua.png",
+    },
+    {
+      name: "Asher Moldwin",
+      school: "George Mason University",
+      email: "",
+      profile: "/aaai2025/images/profile-moldwin.jpg",
+    }
   ];
 
   return (
