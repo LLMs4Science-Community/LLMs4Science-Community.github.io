@@ -3,42 +3,70 @@
 const Program = () => {
   const details = [
     {
-      title: "FORMAT",
-      content: `
-        <p>The workshop is planned for a <strong>full day</strong>.</p>
-        <p>
-          We will structure it into sessions aligned with distinct research themes. 
-          Each session will open with a featured invited talk, with the rest focusing on presentations by authors of accepted papers.
-          These will vary in length depending on the submission type and reviewer feedback.
-          A final session will contain a panel discussion by senior and up-and-coming researchers, focusing on next steps for the community.
-        </p>
-      `,
-    },
-    {
-      title: "ATTENDANCE",
-      content: `
-        <p>Invited speakers and other attendees will fall into three groups:</p>
-        <ul>
-          <li>Foundational AI researchers</li>
-          <li>Biological researchers that have started to utilize FMs</li>
-          <li>Biological researchers with a track record in ML but not FMs</li>
-        </ul>
-        <p>
-          Based on our first offering at AAAI 2024, which focused on LLMs, successful workshop at AAAI 2024, we expect to attract at least 75 attendees.
-          We do not expect to exceed 100 attendees.
-        </p>
-      `,
-    },
-    {
       title: "SUBMISSION",
       content: `
         <p>To reflect the disciplinary diversity, we will encourage submissions of varying length:</p>
         <ul>
           <li>1-page position papers</li>
-          <li>4-page papers with focus on breaking results, datasets, benchmarks</li>
-          <li>6-8-page papers for more detailed investigations</li>
+          <li>4-page papers on breaking results, datasets, benchmark</li>
+          <li>6-8-page papers on more detailed investigations</li>
+          <li>10-page surveys on topics aligned with the theme of the workshop</li>
         </ul>
-        <p>For author submission inquiries, please contact us at <strong>llms4science@gmail.com.</strong></p>
+        <p>
+          Each manuscript should be submitted in a single PDF file, including all content, 
+          figures, tables, and references, following the format of AAAI conference papers. 
+          Paper submissions need to include author information (reviews are not double-blinded).
+        </p>
+        <p>
+          <b>
+            Papers should be submitted at:
+            <a href="https://easychair.org/my/conference?conf=fms4bio25 target="_blank">https://easychair.org/my/conference?conf=fms4bio25</a>.
+          </b>
+        </p>
+        <p>
+          Concurrent submissions to other journals and conferences are acceptable. 
+          Accepted papers will be presented as posters or short talks during the workshop and 
+          published on the workshop website at 
+          <a href="https://llms4science-community.github.io/aaai2025" target="_blank">https://llms4science-community.github.io/aaai2025</a>. 
+          We encourage authors of accepted papers to submit datasets at <a href="https://github.com/LLMs4Science-Community" target="_blank">https://github.com/LLMs4Science-Community</a>. 
+          Selected accepted papers will be presented as contributed talks. 
+          As a tradition, accepted workshop papers are NOT included in the ACM Digital Library. 
+          The authors maintain the copyright of their papers. Author enquiries should be directed 
+          at llms4science@gmail.com.
+        </p>
+      `,
+    },
+    {
+      title: "IMPORTANT DATES",
+      content: `
+        <p>
+          Following are the key dates for the workshop. All deadlines are “anywhere on earth” (UTC-12).
+        </p>
+        <ul>
+          <li>
+            Paper submission deadline: November 30, 2024
+          </li>
+          <li>
+            Notification of decision: December 9, 2024
+          </li>
+          <li>
+            Early AAAI 2025 Registration Deadline: December 19, 2024
+          </li>
+          <li>
+            Workshop Day: March 4, 2024
+          </li>
+        </ul>
+      `,
+    },
+    {
+      title: "ATTENDANCE",
+      content: `
+        <p>
+         For each accepted paper, at least one author must attend the conference and 
+         present their work. Authors of all accepted papers must prepare a final version for 
+         publication and a three-minute short video presentation (further details will be provided in the 
+         acceptance notification).
+        </p>
       `,
     },
   ];

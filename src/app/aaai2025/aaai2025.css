@@ -15,3 +15,8 @@ ul {
   list-style-type: disc;
   padding-left: 20px;
 }
+
+a {
+  color: #2b6cb0;
+  text-decoration: underline;
+}

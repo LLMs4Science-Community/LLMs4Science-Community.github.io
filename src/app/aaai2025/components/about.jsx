@@ -72,10 +72,10 @@ const About = () => {
           that occur at disparate spatio-temporal scales, only probed in the wet
           laboratories at different conditions, at different granularities, at
           different levels of fidelity, and incompletely. This workshop poses
-          and advances the following question: How can we advance foundation
-          models to transform biological research? This workshop brings together
-          an interdisciplinary community of researchers at various levels of
-          their career to nucleate a community that advances this question.
+          and advances the following question: How can we advance FMs to
+          transform biological research? This workshop brings together an
+          interdisciplinary community of researchers at various levels of their
+          career to nucleate a community that advances this question.
         </p>
       </div>
 

@@ -29,7 +29,7 @@ const Organizers = () => {
       id="organizers"
       className="w-[70vw] mx-auto py-[100px] flex flex-col gap-10"
     >
-      <h1 className="text-[40px] font-bold text-neutral-200">ORGANIZERS</h1>
+      <h1 className="text-[40px] font-bold text-neutral-200">GENERAL CO-CHAIRS</h1>
 
       <div className="flex flex-col gap-10">
         {/* <h2 className="text-[24px] font-bold mb-6">WORKSHOP ORGANIZERS</h2> */}

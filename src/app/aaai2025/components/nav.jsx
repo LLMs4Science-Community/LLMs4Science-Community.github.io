@@ -49,7 +49,7 @@ const Nav = () => {
   return (
     <nav className="fixed w-screen h-[100px] z-[1000] flex justify-center gap-[40px] px-[80px] items-center bg-white">
       {links.map((link, i) => (
-        <Link key={i} href={link.href}>
+        <Link className="no-underline" key={i} href={link.href}>
           {link.type === "section" ? (
             <motion.span
               animate={{
