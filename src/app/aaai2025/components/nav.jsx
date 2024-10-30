@@ -12,7 +12,7 @@ const Nav = () => {
     { type: "section", name: "about", href: "#about" },
     { type: "section", name: "program", href: "#program" },
     { type: "section", name: "keynote speakers", href: "#speakers" },
-    { type: "section", name: "organizers", href: "#organizers" },
+    { type: "section", name: "general co-chairs", href: "#organizers" },
     {
       type: "section",
       name: "student co-organizers",
