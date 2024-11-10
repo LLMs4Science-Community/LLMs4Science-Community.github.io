@@ -1,6 +1,17 @@
 "use client";
 
+import { PeopleCard } from "./organizers";
+
 const Speakers = () => {
+  const speakers = [
+    {
+      name: "Allison Heath",
+      school: "Center for Data Driven Discovery in Biomedicine",
+      email: "heathap@chop.edu",
+      profile: "/aaai2025/images/profile-heath.webp",
+    },
+  ];
+
   return (
     <section
       id="speakers"
@@ -10,7 +21,17 @@ const Speakers = () => {
         KEYNOTE SPEAKERS
       </h1>
 
-      TBD
+      <div className="flex flex-wrap gap-6">
+        {speakers.map((person, i) => (
+          <PeopleCard
+            key={i}
+            name={person.name}
+            school={person.school}
+            email={person.email}
+            profile={person.profile}
+          />
+        ))}
+      </div>
     </section>
   );
 };
