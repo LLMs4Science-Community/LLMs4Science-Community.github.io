@@ -9,6 +9,7 @@ const Speakers = () => {
       school: "Center for Data Driven Discovery in Biomedicine",
       email: "heathap@chop.edu",
       profile: "/aaai2025/images/profile-heath.webp",
+      link: "https://d3b.center/team-members/allison-heath/",
     },
   ];
 
@@ -29,6 +30,7 @@ const Speakers = () => {
             school={person.school}
             email={person.email}
             profile={person.profile}
+            link={person.link}
           />
         ))}
       </div>
