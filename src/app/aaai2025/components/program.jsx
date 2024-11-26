@@ -16,6 +16,7 @@ const Program = () => {
           Each manuscript should be submitted in a single PDF file, including all content, 
           figures, tables, and references, following the format of AAAI conference papers. 
           Paper submissions need to include author information (reviews are not double-blinded).
+          References do not counts towards page limit.
         </p>
         <p>
           <b>
