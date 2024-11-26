@@ -30,7 +30,7 @@ const About = () => {
       </h1>
       <div className="w-full flex justify-center gap-2 mb-[100px]">
         <Link
-          href="https://easychair.org/my/conference?conf=FMs4Bio25"
+          href="https://easychair.org/conferences/?conf=fms4bio25"
           target="_blank"
           rel="noopener noreferrer"
         >

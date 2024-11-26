@@ -20,7 +20,7 @@ const Program = () => {
         <p>
           <b>
             Papers should be submitted at:
-            <a href="https://easychair.org/my/conference?conf=fms4bio25 target="_blank">https://easychair.org/my/conference?conf=fms4bio25</a>.
+            <a href="https://easychair.org/conferences/?conf=fms4bio25" target="_blank">https://easychair.org/conferences/?conf=fms4bio25</a>.
           </b>
         </p>
         <p>
@@ -44,10 +44,10 @@ const Program = () => {
         </p>
         <ul>
           <li>
-            Paper submission deadline: November 30, 2024
+            Paper submission deadline: December 2, 2024
           </li>
           <li>
-            Notification of decision: December 9, 2024
+            Notification of decision: December 13, 2024
           </li>
           <li>
             Early AAAI 2025 Registration Deadline: December 19, 2024
