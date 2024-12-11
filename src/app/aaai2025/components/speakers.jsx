@@ -11,6 +11,13 @@ const Speakers = () => {
       profile: "/aaai2025/images/profile-heath.webp",
       link: "https://d3b.center/team-members/allison-heath/",
     },
+    {
+      name: "Jian Tang",
+      school: "Montreal Institute for Learning Alogorithms (MILA)",
+      email: "tangjianpku@gmail.com",
+      profile: "/aaai2025/images/profile-tang.jpg",
+      link: "https://jian-tang.com/",
+    },
   ];
 
   return (
