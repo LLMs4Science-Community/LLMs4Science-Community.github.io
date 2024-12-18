@@ -18,6 +18,13 @@ const Speakers = () => {
       profile: "/aaai2025/images/profile-tang.jpg",
       link: "https://jian-tang.com/",
     },
+    {
+      name: "Payel Das",
+      school: "Trusted AI, IBM Thomas J Watson Research",
+      email: "",
+      profile: "/aaai2025/images/profile-das.jpg",
+      link: "https://research.ibm.com/people/payel-das",
+    },
   ];
 
   return (
