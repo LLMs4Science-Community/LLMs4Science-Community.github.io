@@ -7,22 +7,22 @@ const Speakers = () => {
     {
       name: "Allison Heath",
       school: "Center for Data Driven Discovery in Biomedicine",
-      email: "heathap@chop.edu",
+
       profile: "/aaai2025/images/profile-heath.webp",
       link: "https://d3b.center/team-members/allison-heath/",
     },
     {
       name: "Jian Tang",
       school: "Montreal Institute for Learning Alogorithms (MILA)",
-      email: "tangjianpku@gmail.com",
+
       profile: "/aaai2025/images/profile-tang.jpg",
       link: "https://jian-tang.com/",
     },
     {
       name: "Payel Das",
       school: "Trusted AI, IBM Thomas J Watson Research",
-      email: "",
-      profile: "/aaai2025/images/profile-das.jpg",
+
+      profile: "/aaai2025/images/profile-das.webp",
       link: "https://research.ibm.com/people/payel-das",
     },
   ];
@@ -42,7 +42,6 @@ const Speakers = () => {
             key={i}
             name={person.name}
             school={person.school}
-            email={person.email}
             profile={person.profile}
             link={person.link}
           />

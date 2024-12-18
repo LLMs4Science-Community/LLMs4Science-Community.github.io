@@ -72,7 +72,7 @@ export const PeopleCard = ({ name, school, email, profile, link = null }) => {
           <h3 className="text-[18px] font-semibold mb-1">{name}</h3>
         )}
         <p className="text-[14px] m-0 text-neutral-200">{school}</p>
-        <p className="text-[14px] m-0 text-neutral-200">{email}</p>
+        {email && <p className="text-[14px] m-0 text-neutral-200">{email}</p>}
       </div>
     </div>
   );
