@@ -5,11 +5,11 @@ import { PeopleCard } from "./organizers";
 const Speakers = () => {
   const speakers = [
     {
-      name: "Allison Heath",
-      school: "Center for Data Driven Discovery in Biomedicine",
+      name: "Payel Das",
+      school: "Trusted AI, IBM Thomas J Watson Research",
 
-      profile: "/aaai2025/images/profile-heath.webp",
-      link: "https://d3b.center/team-members/allison-heath/",
+      profile: "/aaai2025/images/profile-das.webp",
+      link: "https://research.ibm.com/people/payel-das",
     },
     {
       name: "Jian Tang",
@@ -19,11 +19,11 @@ const Speakers = () => {
       link: "https://jian-tang.com/",
     },
     {
-      name: "Payel Das",
-      school: "Trusted AI, IBM Thomas J Watson Research",
+      name: "Allison Heath",
+      school: "Center for Data Driven Discovery in Biomedicine",
 
-      profile: "/aaai2025/images/profile-das.webp",
-      link: "https://research.ibm.com/people/payel-das",
+      profile: "/aaai2025/images/profile-heath.webp",
+      link: "https://d3b.center/team-members/allison-heath/",
     },
   ];
 
