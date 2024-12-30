@@ -47,7 +47,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className="fixed w-screen h-[100px] z-[1000] flex justify-center gap-[40px] px-[80px] items-center bg-white">
+    <nav className="fixed left-0 w-screen h-[100px] z-[1000] flex justify-center gap-[40px] px-[80px] items-center bg-white">
       {links.map((link, i) => (
         <Link className="no-underline" key={i} href={link.href}>
           {link.type === "section" ? (
