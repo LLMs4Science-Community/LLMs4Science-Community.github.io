@@ -1,5 +1,7 @@
 "use client";
 
+import program from "./programs.json";
+
 const Program = () => {
   const details = [
     {
@@ -78,9 +80,18 @@ const Program = () => {
       className="w-[70vw] mx-auto py-[100px] flex flex-col gap-10"
     >
       <h1 className="text-[40px] font-bold text-neutral-200">PROGRAM</h1>
+
+      {/* DETAILS */}
       <div className="flex flex-col">
         {details.map((detail, i) => (
           <Detail key={i} title={detail.title} content={detail.content} />
+        ))}
+      </div>
+
+      {/* SCHEDULE */}
+      <div className="flex flex-col gap-4">
+        {program.map((item, index) => (
+          <ScheduleUnit key={index} item={item} />
         ))}
       </div>
     </section>
@@ -94,6 +105,34 @@ export const Detail = ({ title, content }) => {
         <h2 className="text-[24px] font-bold">{title}</h2>
       </div>
       <div dangerouslySetInnerHTML={{ __html: content }} />
+    </div>
+  );
+};
+
+export const ScheduleUnit = ({ item, level = 0 }) => {
+  return (
+    <div
+      style={{
+        borderColor: level === 0 ? "#a0a0a0" : "#dfdfdf",
+      }}
+      className="border-l-[4px] pl-5"
+    >
+      <p
+        style={{ fontStyle: level === 0 ? "normal" : "italic" }}
+        className="font-bold text-neutral-200 text-base mb-1"
+      >
+        {item.time}
+      </p>
+      {item.title && <h3 className="text-lg font-bold m-0">{item.title}</h3>}
+      {typeof item.detail === "string" ? (
+        <p className="text-sm m-0">{item.detail}</p>
+      ) : (
+        <div className="flex flex-col gap-4">
+          {item.detail.map((subitem, index) => (
+            <ScheduleUnit key={index} item={subitem} level={level + 1} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

@@ -1,13 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const Nav = () => {
-  const [activeSection, setActiveSection] = useState("");
-
   const links = [
     { type: "section", name: "about", href: "#about" },
     { type: "section", name: "program", href: "#program" },
@@ -25,43 +23,14 @@ const Nav = () => {
     },
   ];
 
-  useEffect(() => {
-    const handleIntersection = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(handleIntersection, {
-      threshold: 0.5,
-    });
-
-    const sections = document.querySelectorAll("section");
-    sections.forEach((section) => observer.observe(section));
-
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);
-
   return (
     <nav className="fixed left-0 w-screen h-[100px] z-[1000] flex justify-center gap-[40px] px-[80px] items-center bg-white">
       {links.map((link, i) => (
         <Link className="no-underline" key={i} href={link.href}>
           {link.type === "section" ? (
-            <motion.span
-              animate={{
-                color:
-                  activeSection === link.href.substring(1)
-                    ? "#000000"
-                    : "#a0a0a0",
-              }}
-              className="font-semibold"
-            >
+            <span className="font-semibold text-black">
               {link.name.toUpperCase()}
-            </motion.span>
+            </span>
           ) : (
             <motion.span
               whileHover={{ borderColor: "#000000" }}

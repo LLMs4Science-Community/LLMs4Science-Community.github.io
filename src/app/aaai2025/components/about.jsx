@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Detail } from "./program";
 
 const About = () => {
+
   const topics = {
     title: "TOPICS",
     content: `

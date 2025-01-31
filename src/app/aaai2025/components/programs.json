@@ -1,0 +1,29 @@
+[
+  { "time": "9:00 - 9:05", "title": "Opening Remarks", "detail": "" },
+  {
+    "time": "9:05 - 9:45",
+    "title": "Morning Keynote",
+    "detail": "Payel Das, Principal Research Scientist and Manager, IBM Research AI"
+  },
+  {
+    "time": "9:45 – 10:45 | Session I",
+    "title": "",
+    "detail": [
+      {
+        "time": "20 mins",
+        "title": "Understanding the Natural Language of DNA using Encoder-Decoder Foundation Models with Byte-level Precision",
+        "detail": "Aditya Malusare, Harish Kothandaraman, Dipesh Tamboli, Nadia Lanman and Vaneet Aggarwal"
+      },
+      {
+        "time": "20 mins",
+        "title": "Deciphering enzymatic potential in metagenomic reads through DNA language",
+        "detail": "Prabakaran Ramakrishnan and Yana Bromberg"
+      },
+      {
+        "time": "20 mins",
+        "title": "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model",
+        "detail": "Sajib Acharjee Dip, Uddip Shuvo, Tran Chau, Haoqiu Song, Petra Choi, Xuan Wang and Liqing Zhang"
+      }
+    ]
+  }
+]
