@@ -119,13 +119,13 @@ export const ScheduleUnit = ({ item, level = 0 }) => {
     >
       <p
         style={{ fontStyle: level === 0 ? "normal" : "italic" }}
-        className="font-bold text-neutral-200 text-base mb-1"
+        className="font-bold text-neutral-200 text-sm mb-1"
       >
         {item.time}
       </p>
-      {item.title && <h3 className="text-lg font-bold m-0">{item.title}</h3>}
+      {item.title && <h3 className="text-lg font-semibold m-0">{item.title}</h3>}
       {typeof item.detail === "string" ? (
-        <p className="text-sm m-0">{item.detail}</p>
+        <p className="text-base m-0">{item.detail}</p>
       ) : (
         <div className="flex flex-col gap-4">
           {item.detail.map((subitem, index) => (

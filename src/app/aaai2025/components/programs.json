@@ -11,19 +11,127 @@
     "detail": [
       {
         "time": "20 mins",
-        "title": "Understanding the Natural Language of DNA using Encoder-Decoder Foundation Models with Byte-level Precision",
+        "title": "P1. Understanding the Natural Language of DNA using Encoder-Decoder Foundation Models with Byte-level Precision",
         "detail": "Aditya Malusare, Harish Kothandaraman, Dipesh Tamboli, Nadia Lanman and Vaneet Aggarwal"
       },
       {
         "time": "20 mins",
-        "title": "Deciphering enzymatic potential in metagenomic reads through DNA language",
+        "title": "P2. Deciphering enzymatic potential in metagenomic reads through DNA language",
         "detail": "Prabakaran Ramakrishnan and Yana Bromberg"
       },
       {
         "time": "20 mins",
-        "title": "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model",
+        "title": "P3. PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model",
         "detail": "Sajib Acharjee Dip, Uddip Shuvo, Tran Chau, Haoqiu Song, Petra Choi, Xuan Wang and Liqing Zhang"
       }
     ]
+  },
+  {
+    "time": "10:45 - 11:00",
+    "title": "Coffee/Tea Break",
+    "detail": "Light refreshments available near session rooms"
+  },
+  {
+    "time": "11:00 - 11:55 | Session II",
+    "title": "",
+    "detail": [
+      {
+        "time": "20 mins",
+        "title": "P4. DeepAge: Harnessing Deep Neural Network for Epigenetic Age Estimation From DNA Methylation Data of Human Blood Samples",
+        "detail": "Sajib Acharjee Dip, Da Ma and Liqing Zhang"
+      },
+      {
+        "time": "20 mins",
+        "title": "P5. Scalable DNA Feature Generation and Transcription Factor Binding Prediction via Deep Surrogate Models",
+        "detail": "Anowarul Kabir, Toki Tahmid Inan, Kim Rasmussen, Amarda Shehu, Anny Usheva, Alan Bishop, Boian Alexandrov and Manish Bhattarai"
+      },
+      {
+        "time": "15 mins",
+        "title": "P6. Efficient High-Throughput DNA Breathing Features Generation Using Jax-EPBD",
+        "detail": "Toki Tahmid Inan, Anowarul Kabir, Kim Rasmussen, Amarda Shehu, Anny Usheva, Alan Bishop, Boian Alexandrov and Manish Bhattarai"
+      }
+    ]
+  },
+  {
+    "time": "12:00 - 12:30",
+    "title": "Invited Talk",
+    "detail": "Yoseph Barash, Professor of Genetics, University of Pennsylvania"
+  },
+  {
+    "time": "12:30 - 13:45",
+    "title": "Lunch",
+    "detail": "On your own. No sponsored lunch provided"
+  },
+  {
+    "time": "13:45 - 14:25",
+    "title": "Afternoon Keynote",
+    "detail": "Jian Tang, Associate Professor at Mila-Quebec AI Institute and HEC Montreal"
+  },
+  {
+    "time": "11:00 - 11:55 | Session III",
+    "title": "",
+    "detail": [
+      {
+        "time": "20 mins",
+        "title": "P7. DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration",
+        "detail": "Sizhe Liu, Yizhou Lu, Siyu Chen, Xiyang Hu, Jieyu Zhao, Tianfan Fu and Yue Zhao"
+      },
+      {
+        "time": "20 mins",
+        "title": "P8. Towards Automated Biological Discovery: LLM-based Multi-Agent AI System for Single-Cell Disease Marker Identification and Discovery",
+        "detail": "Jieli Zhou, Luting Zhou and Hongyi Xin"
+      },
+      {
+        "time": "20 mins",
+        "title": "P9. Transformer-Based Approach for Automated Functional Group Replacement in Chemical Compounds",
+        "detail": "Bo Pan, Zhiping Zhang, Kevin Spiekermann, Tianchi Chen, Xiang Yu, Liying Zhang and Liang Zhao"
+      },
+      {
+        "time": "15 mins",
+        "title": "P10. AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity against SARS-CoV-2",
+        "detail": "Faisal Bin Ashraf, Animesh Ray and Stefano Lonardi"
+      }
+    ]
+  },
+  {
+    "time": "15:45 - 16:00",
+    "title": "Coffee/Tea Break",
+    "detail": "Light refreshments available near session rooms"
+  },
+  {
+    "time": "16:00 - 16:40",
+    "title": "Evening Keynote",
+    "detail": "Jian Tang, Associate Professor at Mila-Quebec AI Institute and HEC Montreal"
+  },
+  {
+    "time": "16:40 - 17:50 | Session IV",
+    "title": "",
+    "detail": [
+      {
+        "time": "20 mins",
+        "title": "P11. Leveraging Multimodal Representations to Predict Protein Melting Temperatures",
+        "detail": "Daiheng Zhang, Yan Zeng, Xinyu Hong and Jinbo Xu"
+      },
+      {
+        "time": "20 mins",
+        "title": "P12. Energy Efficient Protein Language Models: Leveraging Small Language Models with LoRA for Controllable Protein Generation",
+        "detail": "Aayush Shah and Shankar Jayaratnam"
+      },
+      {
+        "time": "20 mins",
+        "title": "P13. Multi-Omic Integration for Breast Cancer Subtype Classification Using Advanced AI Techniques",
+        "detail": "ajib Acharjee Dip and Liqing Zhang"
+      },
+      {
+        "time": "15 mins",
+        "title": "P14. Foundation Models for AI-Enabled Biological Design",
+        "detail": "Asher Moldwin and Amarda Shehu"
+      }
+    ]
+  },
+  {
+    "time": "17:50 - 18:00",
+    "title": "Closing Remarks",
+    "detail": ""
   }
 ]
