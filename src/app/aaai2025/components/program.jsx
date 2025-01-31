@@ -72,12 +72,13 @@ const Program = () => {
         </p>
       `,
     },
+    { title: "SCHEDULE" },
   ];
 
   return (
     <section
       id="program"
-      className="w-[70vw] mx-auto py-[100px] flex flex-col gap-10"
+      className="w-[70vw] mx-auto py-[100px] flex flex-col gap-6"
     >
       <h1 className="text-[40px] font-bold text-neutral-200">PROGRAM</h1>
 
@@ -123,7 +124,9 @@ export const ScheduleUnit = ({ item, level = 0 }) => {
       >
         {item.time}
       </p>
-      {item.title && <h3 className="text-lg font-semibold m-0">{item.title}</h3>}
+      {item.title && (
+        <h3 className="text-lg font-semibold m-0">{item.title}</h3>
+      )}
       {typeof item.detail === "string" ? (
         <p className="text-base m-0">{item.detail}</p>
       ) : (
