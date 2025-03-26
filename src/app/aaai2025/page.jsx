@@ -1,16 +1,15 @@
 "use client";
 
 import About from "./components/about";
-import Program from "./components/program";
+import Nav from "./components/nav";
 import Organizers from "./components/organizers";
+import Program from "./components/program";
 import Speakers from "./components/speakers";
 import StudentOrganizers from "./components/studentOrganizers";
-import Nav from "./components/nav";
 
 const Aaai2025 = () => {
   return (
     <>
-      <Nav />
       <About />
       <Program />
       <Speakers />

@@ -1,7 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
+import Link from "next/link";
+
 import { Detail } from "./program";
 
 const About = () => {
@@ -43,7 +44,7 @@ const About = () => {
           </motion.div>
         </Link>
         <Link
-          href="/aaai2025/accepted"
+          href="/aaai2025/papers"
         >
           <motion.div
             whileHover={{ borderColor: "#000" }}

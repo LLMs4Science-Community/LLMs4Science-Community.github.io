@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/aaai2025/papers/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

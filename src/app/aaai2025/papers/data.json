@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "title": "Leveraging Multi-modal Representations to Predict Protein Melting Temperatures",
+    "author": ["Anonymous"]
+  },
+  {
+    "id": 2,
+    "title": "Understanding the Natural Language of DNA using Encoder-Decoder Foundation Models with Byte-level Precision",
+    "author": [
+      "Aditya Malusare",
+      "Harish Kothandaraman",
+      "Dipesh Tamboli",
+      "Nadia A. Lanman",
+      "Vaneet Aggarwal"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration",
+    "author": [
+      "Sizhe Liu",
+      "Yizhou Lu",
+      "Siyu Chen",
+      "Xiyang Hu",
+      "Jieyu Zhao",
+      "Tianfan Fu",
+      "Yue Zhao"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity against SARS-CoV-2",
+    "author": ["Faisal Bin Ashraf", "Animesh Ray", "Stefano Lonardi"]
+  },
+  {
+    "id": 6,
+    "title": "Foundation Models for AI-enabled Biological Design",
+    "author": ["Asher Moldwin", "Amarda Shehu"]
+  },
+  {
+    "id": 7,
+    "title": "Scalable DNA Feature Generation and Transcription Factor Binding Prediction via Deep Surrogate Models",
+    "author": [
+      "Anowarul Kabir",
+      "Toki Tahmid Inan",
+      "Kim Rasmussen",
+      "Amarda Shehu",
+      "Anny Usheva",
+      "Alan Bishop",
+      "Boian Alexandrov",
+      "Manish Bhattarai"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Efficient High-Throughput DNA Breathing Features Generation Using Jax-EPBD",
+    "author": [
+      "Toki Tahmid Inan",
+      "Anowarul Kabir",
+      "Kim Rasmussen",
+      "Amarda Shehu",
+      "Anny Usheva",
+      "Alan Bishop",
+      "Boian Alexandrov",
+      "Manish Bhattarai"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Position Paper Towards Automated Biological Discovery: LLM-based Multi-Agent AI System for Single-Cell Disease Marker Identification and Discovery",
+    "author": ["Jieli Zhou", "Luting Zhou", "Hongyi Xin"]
+  },
+  {
+    "id": 10,
+    "title": "DeepAge: Harnessing Deep Neural Network for Epigenetic Age Estimation From DNA Methylation Data of Human Blood Samples",
+    "author": ["Sajib Acharjee Dip", "Da Ma", "Liqing Zhang"]
+  },
+  {
+    "id": 11,
+    "title": "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model",
+    "author": [
+      "Sajib Acharjee Dip",
+      "Uddip Acharjee Shuvo",
+      "Tran Chau",
+      "Haoqiu Song",
+      "Petra Choi",
+      "Xuan Wang",
+      "Liqing Zhang"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Energy Efficient Protein Language Models: Leveraging Small Language Models with LoRA for Controllable Protein Generation",
+    "author": ["Aayush Shah", "Shankar Jayaratnam"]
+  },
+  {
+    "id": 13,
+    "title": "Multi-Omic Integration for Breast Cancer Subtype Classification Using Advanced AI Techniques",
+    "author": ["Sajib Acharjee Dip", "Liqing Zhang"]
+  },
+  {
+    "id": 14,
+    "title": "Deciphering enzymatic potential in metagenomic reads through DNA language model",
+    "author": ["R Prabakaran", "Yana Bromberg"]
+  },
+  {
+    "id": 16,
+    "title": "Transformer-Based Approach for Automated Functional Group Replacement in Chemical Compounds",
+    "author": [
+      "Bo Pan",
+      "Zhiping Zhang",
+      "Kevin Spiekermann",
+      "Tianchi Chen",
+      "Xiang Yu",
+      "Liying Zhang",
+      "Liang Zhao"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Leveraging Multi-modal Representations to Predict Protein Melting Temperatures",
+    "author": ["Daiheng Zhang", "Yan Zeng", "Xinyu Hong", "Jinbo Xu"]
+  }
+]
