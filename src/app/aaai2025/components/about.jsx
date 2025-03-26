@@ -43,9 +43,7 @@ const About = () => {
           </motion.div>
         </Link>
         <Link
-          href="https://github.com/LLMs4Science-Community"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/aaai2025/accepted"
         >
           <motion.div
             whileHover={{ borderColor: "#000" }}
